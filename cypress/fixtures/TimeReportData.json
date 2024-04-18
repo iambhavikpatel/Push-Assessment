@@ -1,0 +1,11 @@
+{
+    "projectName": "Apache Software Foundation - ASF - Phase 1",
+    "fromDate": "2021-01-01",
+    "toDate": "2023-31-12",
+    "bugFixesTxt": "Bug Fixes",
+    "featureDevelopmentTxt": "Feature Development",
+    "implementationTxt": "Implementation",
+    "QATestingTxt": "QA Testing",
+    "reqGatheringTxt": "Requirement Gathering",
+    "supportMainTxt": "Support & Maintanence"
+}
