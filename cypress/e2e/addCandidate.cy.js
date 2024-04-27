@@ -33,6 +33,8 @@ describe('Add Candidate Test', () => {
         cy.get('[placeholder="yyyy-dd-mm"]').clear()
         cy.get('[placeholder="yyyy-dd-mm"]').type('2024-01-01')
         cy.get('div:nth-of-type(3) > .orangehrm-full-width-grid.oxd-grid-3 > div:nth-of-type(1) > .oxd-input-field-bottom-space.oxd-input-group  .oxd-input').type(testData.emailId)
+        cy.get('.oxd-file-button').click()
+        cy.get('.oxd-file-input').selectFile('cypress/fixtures/Bhavikkumar_Patel_QA.pdf', {force: true})
         cy.get('.oxd-button--secondary').click()
         cy.get('.oxd-layout-context > .orangehrm-card-container > .oxd-form').contains('Application Stage')
 
